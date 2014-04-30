@@ -38,7 +38,7 @@ namespace ECWTransformation
 
             if (key == "") return "error: no encryption key";
 
-            if (ConfigurationManager.AppSettings["ECWOutboundTimestamp"].ToString().ToLower() == "true") { qs = qs + "&timestamp=" + SIBTime.TimeStamp(); }
+            if (ConfigurationManager.AppSettings["ECWOutboundTimestamp"].ToString().ToLower() == "true") { qs = qs + "&timestamp=" + SIBTime.UTCTimeStamp(); }
 
             try
             {

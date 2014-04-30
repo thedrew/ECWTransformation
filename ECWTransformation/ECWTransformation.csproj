@@ -40,8 +40,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="SiemensISRM">
-      <HintPath>..\..\ClassLibrary1\ClassLibrary1\bin\Release\SiemensISRM.dll</HintPath>
+    <Reference Include="SiemensISRM, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SecureInteroperabilityBridge\sib\bin\Release\SiemensISRM.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
